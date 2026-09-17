@@ -1,0 +1,12 @@
+# OpenDocs v0.1 — Runtime dependencies
+# PySide6: Qt for Python (widgets, GUI, PDF via QPdfView)
+PySide6
+
+# Document format readers
+mammoth          # DOCX → HTML
+openpyxl         # XLSX spreadsheet reading
+
+# Optional / system-level
+# Pillow for image thumbnails (if needed later)
+# Pygments for syntax highlighting (if needed later)
+# ebooklib for EPUB (if/when EPUB support is added)
