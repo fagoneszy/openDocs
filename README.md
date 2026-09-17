@@ -1,10 +1,5 @@
-# OpenDocs
-
-**One app. Any document.**
-
 ![OpenDocs](./OpenDocs.png)
 
-<h1 align="center">OpenDocs</h1>
 
 <p align="center">
   <strong>One app. Any document.</strong>
