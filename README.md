@@ -2,8 +2,6 @@
   <img src="./OpenDocs.png" width="100%" alt="OpenDocs — One app. Any document.">
 </p>
 
-<h1 align="center">OpenDocs</h1>
-
 <p align="center">
   <strong>ONE APP. ANY DOCUMENT.</strong>
 </p>
