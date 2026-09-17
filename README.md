@@ -2,35 +2,81 @@
 
 **One app. Any document.**
 
+![OpenDocs](./OpenDocs.png)
+
+<h1 align="center">OpenDocs</h1>
+
 <p align="center">
-  <img src="./OpenDocs.png" width="80" alt="OpenDocs logo">
+  <strong>One app. Any document.</strong>
 </p>
 
 <p align="center">
-  <strong>Universal Document Viewer</strong>
-</p>
-
-<p align="center">
-  Open-source · Offline · Local-first · Cross-platform
-</p>
-
-<p align="center">
-  <img src="./OpenDocs.png" width="200" alt="OpenDocs banner">
-</p>
-
-<p align="center">
-  <sub>One app. Any document.</sub>
+  Universal Document Viewer
 </p>
 
 <p align="center">
   Open-source · Offline · Local-first · Cross-platform
-</p>
-
-<p align="center">
-  <sub>MIT License · Cross-platform · PySide6</sub>
 </p>
 
 ---
+
+## About
+
+OpenDocs is a lightweight universal document viewer designed around one simple idea:
+
+> Drop any file into OpenDocs and something useful should happen.
+
+## Features
+
+- Universal file detection
+- PDF, DOCX, XLSX, TXT, Markdown and code preview
+- Unknown-file inspection
+- Magic-byte detection
+- Drag & drop
+- Fully offline
+- No telemetry
+- No cloud
+
+## Support Levels
+
+- **L1 — Native**
+- **L2 — Converted**
+- **L3 — Extracted**
+- **L4 — Inspected**
+
+OpenDocs does not pretend every format can be rendered perfectly.
+
+Instead, unsupported formats gracefully fall back to inspection, metadata and raw-file analysis.
+
+## Security
+
+- JavaScript execution disabled
+- Office macros are never executed
+- HTML content sanitized
+- No automatic script execution
+- No external cloud processing
+
+Your files stay on your computer.
+
+## For Developers
+
+Adding a new format is intentionally simple:
+
+```python
+@reader("abc")
+def read_abc(path):
+    ...
+```
+
+OpenDocs is designed to remain small enough to understand, modify and contribute to without learning a complex internal framework.
+
+## Version
+
+`v0.1.0 — First Light`
+
+## License
+
+MIT — see the LICENSE file distributed with this source code.
 
 ## Philosophy
 
